@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE Edit_Mensaje SYSTEM "Edit_Mensaje.dtd">
+<noticias>
+  <item>
+    <titulo>El próximo envío marítimo con destino a Venezuela zarpará el 10 de noviembre.</titulo>
+    <imagen>src="assets/image/envioVzla.jpg"</imagen>
+    <descripcion> EL PLAZO MÁXIMO DE RECEPCIÓN DE PAQUETES SERÁ EL 05 DE NOVIEMBRE</descripcion>
+    <contenido>La fecha pautada para el próximo envío marítimo que zarpará desde Estados Unidos con destino a Venezuela es el 10 de noviembre por lo cual a los usuarios que deseen que su envio sea trasladado en ese contenedor deberán enviar sus paquetes a nuetras oficinas con fecha máxima de entrega el dia 05 de noviembre. De igual manera, pueden agendar el servicio de Perssonal Shopper para las fechas disponibles antes de dicha fecha límite, para mayor información pueden contactarnos por nuestros canales de comunicación. Segun lo previsto este  envio arribara 15 de diciembre.</contenido>
+    <fechaPub>Publicado: Lun, 17 Oct 2022 15:42:30 +0200</fechaPub>
+  </item>
+  <item>
+    <titulo>El próximo envío marítimo con destino a Colombia zarpará el 12 de noviembre.</titulo>
+    <imagen>src="assets/image/envioCol.jpg"</imagen>
+    <descripcion>EL PLAZO MÁXIMO DE RECEPCIÓN DE PAQUETES SERÁ EL 07 DE NOVIEMBRE</descripcion>
+    <contenido>La fecha pautada para el próximo envío marítimo que zarpará desde Estados Unidos con destino a Colombia es el 12 de noviembre por lo cual a los usuarios que deseen que su envio sea trasladado en ese contenedor deberán enviar sus paquetes a nuetras oficinas con fecha máxima de entrega el dia 08 de noviembre. De igual manera, pueden agendar el servicio de Perssonal Shopper para las fechas disponibles antes de dicha fecha límite, para mayor información pueden contactarnos por nuestros canales de comunicación. Segun lo previsto este  envio arribara 12 de diciembre.</contenido>
+    <fechaPub>Vie, 14 Oct 2022 15:45:40 +0200</fechaPub>
+  </item>
+  <item>
+    <titulo>Nos preparamos para SUPER OFERTAS de BlackFriday y CiberMonday.</titulo>
+    <imagen>src="assets/image/ciberMonday.jpg"</imagen>
+    <descripcion>¿Ya tines tu lista de compras?</descripcion>
+    <contenido>Si deseas disfrutar de las mejores ofertas el proximo BlackFriday y CiberMonday te ofrecemos nuestro servicio de Personal Shopper, con sus diferentes modalidades, para más información puedes vititar nuestra sección de Personal Shopper en la opción SERVICIOS.</contenido>
+    <fechaPub>Publicado: Lun, 10 Oct 2022 17:23:40 +0200</fechaPub>
+  </item>
+</noticias>

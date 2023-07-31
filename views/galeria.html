@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria</title>
+  <meta name="description" content="Te mostramos nuestro trabajo, aseguramos un servicio de calidad">
+  <meta name="keywords" content="envios internacionales, personal shopper, compras, mudanzas, rental car, agente" >
+  <meta name="author" content="MurielVitale" >
+  <meta name="robots" content="index, follow" >
+  <meta name="locality" content="madrid, spain, europa">
+  <meta name="revisit-after" content="7 days">
+  <meta name="category" content="servicios">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="../css/estilos.css">
+</head>
+
+<body>
+  <header>
+    <div class="navbar-fixed">
+      <!--Barra de navegacion-->
+      <nav class="barra">
+        <div class="nav-wrapper container">
+          <img src="../assets/image/logoFT.png" alt="AlekoExpress" id="logo">
+          <a href="#" class="brand-logo yellow-text text-accent-4"><span
+              class="yellow-text text-accent-4">Aleko</span><span class="indigo-text text-darken-2">Express</span></a>
+          <ul class="right hide-on-med-and-down menuOpc">
+            <li><a class="elMenu" href="../index.html"> INICIO</a></li>
+            <!-- Dropdown Trigger -->
+            <li>
+              <a class="dropdown-trigger elMenu" href="#" data-target="id_drop">
+                SERVICIOS
+                <i class="material-icons right icono">arrow_drop_down</i>
+              </a>
+            </li>
+            <li><a class="elMenu" href="./presupuesto.html">PRESUPUESTO</a></li>
+            <li><a class="elMenu menuActivo" href="#">GALERIA</a></li>
+            <li><a class="elMenu" href="./contacto.html">CONTACTO</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!--Boton de Hamburguesa para med y small-->
+    <div class="ingreso hide-on-large-only">
+      <a href="#" class="sidenav-trigger" data-target="id-menu-side">
+        <i class="material-icons">menu</i>
+      </a>
+    </div>
+    <div id="infoAct" class="indigo hide-on-med-and-down">
+      <h1 class="yellow-text text-accent-4">
+        SOMOS TU PERSONAL SHOPPER, TU AGENTE DE ENVIOS Y MUDANZAS Y TU RENTAL CAR DE CONFIANZA
+      </h1>
+    </div>
+    <!-- Side Nav configuramos las opciones-->
+    <ul class="sidenav" id="id-menu-side">
+      <li>
+        <div class="user-view">
+          <div class="background">
+            <img src="../assets/image/fondoSideNav.jpg" alt="Menu de opciones">
+          </div>
+          <a href="../index.html">
+            <img class="circle" src="../assets/image/logoFT.png" alt="Logo Aleko Express">
+          </a>
+          <a href="../index.html">
+            <span class="name white-text">Aleko Express</span>
+          </a>
+          <a href="./contacto.html">
+            <span class="email white-text">info@alekoexpress.com</span>
+          </a>
+        </div>
+      </li>
+      <li>
+        <a href="../index.html">INICIO</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a href="./servicios.html">SERVICIOS</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a href="./presupuesto.html">PRESUPUESTOS</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a href="#">GALERIA</a>
+      </li>
+      <li>
+        <div class="divider"></div>
+      </li>
+      <li>
+        <a href="./contacto.html">CONTACTO</a>
+      </li>
+    </ul>
+    <!-- Estructura del Dropdown -->
+    <ul class="dropdown-content" id="id_drop">
+      <li><a href="#" class="elDrop yellow-text text-accent-4 ">SERVICIOS</a></li>
+      <li class="divider"></li>
+      <li><a href="./servicios.html" id="dropPS" class="elDrop">PERSONAL SHOPPER</a></li>
+      <li><a href="./servicios.html" id="dropEI" class="elDrop">ENVIOS</a></li>
+      <li><a href="./servicios.html" id="dropM" class="elDrop ">MUDANZAS</a></li>
+      <li><a href="./servicios.html" id="dropRC" class="elDrop">RENTAL CAR</a></li>
+    </ul>
+  </header>
+
+  <main>
+    <div id="slideshow-principalgal">
+      <div id="progress-bar-container">
+          <div id="progress-bar"></div>
+      </div>
+      <div id="slideshowgal">
+        <img src="../assets/image/ei009.jpg" alt="Servicio de Envios Internacionales" id="img1" class="fotosgal">
+        <img src="../assets/image/ei011.jpg" alt="Servicio de Envios Internacionales" id="img2" class="fotosgal">
+        <img src="../assets/image/ei012.JPG" alt="Servicio de Envios Internacionales" id="img3" class="fotosgal">
+        <img src="../assets/image/ei013.jpg" alt="Servicio de Envios Internacionales" id="img4" class="fotosgal">
+        <img src="../assets/image/rc002.jpg" alt="Servicio de Rental Car" id="img5" class="fotosgal">
+        <img src="../assets/image/rc0021.jpg" alt="Servicio de Rental Car" id="img6" class="fotosgal">
+        <img src="../assets/image/rc003.JPG" alt="Servicio de Rental Car" id="img7" class="fotosgal">
+        <img src="../assets/image/m011.jpg" alt="Servicio de Mudanza" id="img8" class="fotosgal">
+        <img src="../assets/image/m010.jpg" alt="Servicio de Mudanza" id="img9" class="fotosgal">
+        <img src="../assets/image/m009.jpg" alt="Servicio de Mudanza" id="img10" class="fotosgal">  
+        <div id="indicadoresgal"></div>
+        <div class="slidersgal leftgal">
+            &#60;
+        </div>
+        <div class="slidersgal rightgal" id="derecho">
+            &#62;
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="page-footer elPie">
+    <div class="row container">
+      <div class="col s12 l6">
+        <h5 class="white-text"><span class="yellow-text text-accent-4">Aleko</span><span
+            class="indigo-text text-darken-2">Express</span></h5>
+        <p class="grey-text text-lighten-4">Todos los servicios en un solo lugar.</p>
+        <p class="datosPie"><span class="yellow-text text-accent-4">DIRECCIÓN: </span>C. de Alonso Cano, 44, 46, 28003 Madrid</p>
+        <p class="datosPie"><span class="yellow-text text-accent-4">CONTACTO: </span> +34 913 123 456  info@alekoespress.com</p>
+        <p class="datosPie"><span class="yellow-text text-accent-4">HORARIO: </span> 10:00 a 15:00 / 17:00 a 20:00 (Lunes a Sábado)</p>
+      </div>
+      <div class="col s12 l4 offset-l2 redesS">
+        <ul>
+          <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/alekosexpress/"><img
+                src="../assets//image/rsinstagram.png" alt="instagram"></a></li>
+          <li><a class="grey-text text-lighten-3" href="https://twitter.com/TwitterDev/"><img
+                src="../assets//image/rstwitter.png" alt="twitter"></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-copyright z-depth-5">
+      <div class="container yellow-text text-accent-4">
+        © 2014 AlekoExpress Inc. Todos los derechos reservados.
+        <a class="yellow-text text-accent-4 avleg" href="assets/documents/avisoLegal.pdf">Aviso Legal</a>
+      </div>
+    </div>
+  </footer>
+
+  <!--Materialize JS-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function () {
+      M.AutoInit(); //cambio las variables que salen por este autonit para que se inicialicen los JS para los carruceles tambien
+      elSideNav();
+      function elSideNav() {
+        var elems = document.querySelectorAll('.sidenav');
+        var instances = M.Sidenav.init(elems);
+      }
+    });
+  </script>
+  <script src="../js/javascript.js"></script>
+</body>
+</html>
