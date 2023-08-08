@@ -7,6 +7,7 @@ if (elIndex) {
     const preg4 = document.querySelector("#preg4");
     preg1.addEventListener("mouseover", function () {
         mostrarResp(this);
+
     });
     preg1.addEventListener("mouseout", function () {
         ocultarResp(this);
