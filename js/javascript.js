@@ -649,7 +649,7 @@ if (formulario1) {
             if (fechaActual < fechaInicio) {
                 if (fechaInicio < fechaFin) {
                     dias = (fechaFin - fechaInicio) / (86400000); //86400000 es el equivalente a 1 dia
-                    
+
                     inputsRentalCar.fechas = true;
                     setSuccessFor(inicioRentalC);
                     setSuccessFor(finRentalC)
